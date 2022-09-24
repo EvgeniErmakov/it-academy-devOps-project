@@ -47,3 +47,13 @@ jobs:
         git add .
         git commit -m "add new version ${{ steps.tag_version.outputs.new_tag }}"
         git push origin main
+
+    - name: Slack Notification
+      uses: rtCamp/action-slack-notify@v2
+      env:
+        SLACK_CHANNEL: yes-i-still-love-you
+        SLACK_COLOR: ${{ job.status }}
+        SLACK_MESSAGE: 'New version has been deployed'
+        SLACK_TITLE: Attention
+        SLACK_USERNAME: GitHub
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
