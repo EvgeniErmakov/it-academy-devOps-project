@@ -37,9 +37,7 @@ jobs:
 
     - name: Helm Package
       run: |
-        cd chart
         helm package wordpress --version=${{ steps.tag_version.outputs.new_tag }} --app-version=${{ steps.tag_version.outputs.new_tag }}
-        cd ..
         helm repo index --url https://evgeniermakov.github.io/it-academy-devOps-project/ --merge index.yaml .
 
     - name: Commit and push changes
