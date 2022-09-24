@@ -1,0 +1,362 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Insita Lite\n"
+"POT-Creation-Date: 2021-08-03 16:41+0530\n"
+"PO-Revision-Date: 2021-08-03 16:41+0530\n"
+"Last-Translator: \n"
+"Language-Team: Risingthemes Team <support@risingthemes.net>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_html_e;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+
+#: 404.php:15
+msgid "<strong>404</strong> Not Found"
+msgstr ""
+
+#: 404.php:18
+msgid ""
+"Looks like you have taken a wrong turn.....<br />Do Not worry... it happens "
+"to the best of us."
+msgstr ""
+
+#: comments.php:35
+#: comments.php:53
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr ""
+
+#: content-page.php:19
+#: content-single.php:29
+#: content.php:36
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:24
+#: content-single.php:41
+msgid "Edit"
+msgstr ""
+
+#: content-single.php:34
+#: content.php:13
+msgid ", "
+msgstr ""
+
+#: content-single.php:35
+msgid " | Tags: "
+msgstr ""
+
+#: content.php:28
+msgid "Read More &raquo;"
+msgstr ""
+
+#: content.php:32
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: footer.php:15
+msgid "Y"
+msgstr ""
+
+#: footer.php:15
+msgid ". Powered by WordPress"
+msgstr ""
+
+#: front-page.php:66
+msgid "Learn More"
+msgstr ""
+
+#: front-page.php:69
+msgid "Lear More"
+msgstr ""
+
+#: functions.php:32
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:48
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:49
+msgid "Appears on blog page sidebar"
+msgstr ""
+
+#: header.php:31
+msgid "Skip to content"
+msgstr ""
+
+#: no-results.php:11
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:17
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:19
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: no-results.php:22
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: sidebar.php:12
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:18
+msgid "Meta"
+msgstr ""
+
+#: inc/customizer.php:38
+msgid "Header Background color"
+msgstr ""
+
+#: inc/customizer.php:39
+msgid "Select background color for header."
+msgstr ""
+
+#: inc/customizer.php:52
+msgid "Navigation Menu color"
+msgstr ""
+
+#: inc/customizer.php:53
+msgid "Select text color for navigation menu."
+msgstr ""
+
+#: inc/customizer.php:66
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/customizer.php:67
+msgid "Select theme main color from here."
+msgstr ""
+
+#: inc/customizer.php:80
+msgid "Select theme sub color from here."
+msgstr ""
+
+#: inc/customizer.php:93
+msgid "Footer Background color"
+msgstr ""
+
+#: inc/customizer.php:94
+msgid "Select background color for footer."
+msgstr ""
+
+#: inc/customizer.php:107
+msgid "Header Information"
+msgstr ""
+
+#: inc/customizer.php:109
+msgid "Add information for main header here."
+msgstr ""
+
+#: inc/customizer.php:119
+msgid "Add E-mail address label here"
+msgstr ""
+
+#: inc/customizer.php:129
+msgid "Add E-mail address here"
+msgstr ""
+
+#: inc/customizer.php:139
+msgid "Add phone label here"
+msgstr ""
+
+#: inc/customizer.php:149
+msgid "Add phone number here"
+msgstr ""
+
+#: inc/customizer.php:159
+msgid "Add company address label here"
+msgstr ""
+
+#: inc/customizer.php:169
+msgid "Add company address here"
+msgstr ""
+
+#: inc/customizer.php:182
+#: inc/customizer.php:309
+#: inc/customizer.php:457
+#: inc/customizer.php:531
+msgid "Check this to hide section."
+msgstr ""
+
+#: inc/customizer.php:192
+msgid "Call to Action Button"
+msgstr ""
+
+#: inc/customizer.php:194
+msgid "Display CTA button beside navigation"
+msgstr ""
+
+#: inc/customizer.php:204
+msgid "Add CTA button label here"
+msgstr ""
+
+#: inc/customizer.php:214
+msgid "Add CTA button link here."
+msgstr ""
+
+#: inc/customizer.php:224
+msgid "Social Links"
+msgstr ""
+
+#: inc/customizer.php:226
+msgid "Display social media links on site"
+msgstr ""
+
+#: inc/customizer.php:236
+msgid "Add text label here"
+msgstr ""
+
+#: inc/customizer.php:246
+msgid "Add facebook link here."
+msgstr ""
+
+#: inc/customizer.php:256
+msgid "Add twitter link here."
+msgstr ""
+
+#: inc/customizer.php:266
+msgid "Add instagram link here."
+msgstr ""
+
+#: inc/customizer.php:276
+msgid "Add linkedin link here."
+msgstr ""
+
+#: inc/customizer.php:286
+msgid "Add google plus link here."
+msgstr ""
+
+#: inc/customizer.php:296
+msgid "Add youtube channel link here."
+msgstr ""
+
+#: inc/customizer.php:320
+msgid "Slider"
+msgstr ""
+
+#: inc/customizer.php:322
+msgid ""
+"Recommended image size (1420x720). Slider will work only when you select the "
+"static front page."
+msgstr ""
+
+#: inc/customizer.php:327
+msgid "Welcome To InSita"
+msgstr ""
+
+#: inc/customizer.php:332
+msgid "Add slide sub heading text."
+msgstr ""
+
+#: inc/customizer.php:346
+msgid "Select page for slide one:"
+msgstr ""
+
+#: inc/customizer.php:358
+msgid "Select page for slide two:"
+msgstr ""
+
+#: inc/customizer.php:370
+msgid "Select page for slide three:"
+msgstr ""
+
+#: inc/customizer.php:375
+msgid "Explore More"
+msgstr ""
+
+#: inc/customizer.php:380
+msgid "Add slider button text."
+msgstr ""
+
+#: inc/customizer.php:395
+msgid "Check this to hide slider."
+msgstr ""
+
+#: inc/customizer.php:406
+msgid "Welcome Section"
+msgstr ""
+
+#: inc/customizer.php:408
+msgid ""
+"Select page for display content in homepage. This section will be displayed "
+"only when you select the static front page."
+msgstr ""
+
+#: inc/customizer.php:413
+msgid "Welcome to InSita"
+msgstr ""
+
+#: inc/customizer.php:418
+msgid "Add section sub title here"
+msgstr ""
+
+#: inc/customizer.php:432
+msgid "Select page for Welcome section"
+msgstr ""
+
+#: inc/customizer.php:437
+msgid "Read More"
+msgstr ""
+
+#: inc/customizer.php:442
+msgid "Add read more button text."
+msgstr ""
+
+#: inc/customizer.php:468
+msgid "Services Section"
+msgstr ""
+
+#: inc/customizer.php:470
+msgid ""
+"Select pages for display content in homepage. This section will be displayed "
+"only when you select the static front page."
+msgstr ""
+
+#: inc/customizer.php:480
+msgid "Add section title here"
+msgstr ""
+
+#: inc/customizer.php:494
+msgid "Select page for first box"
+msgstr ""
+
+#: inc/customizer.php:506
+msgid "Select page for second box"
+msgstr ""
+
+#: inc/customizer.php:518
+msgid "Select page for third box"
+msgstr ""
+
+#: inc/template-tags.php:38
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:57
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/header/site-nav.php:6
+msgid "Menu"
+msgstr ""
