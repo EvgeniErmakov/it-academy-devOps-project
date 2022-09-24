@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  wordpress:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2022-09-24T14:51:26.782408634+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 07aa19caeb0ebea32e3bdb58da389291afb7245546c2f16ffb43056fc050fd25
+    name: wordpress
+    type: application
+    urls:
+    - https://evgeniermakov.github.io/it-academy-devOps-project/wordpress-0.0.1.tgz
+    version: 0.0.1
+generated: "2022-09-24T14:51:26.782054678+03:00"

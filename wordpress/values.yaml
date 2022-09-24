@@ -1,0 +1,25 @@
+image:
+  repository: "evgeniermakov/wordpress-prod"
+  tag: ""
+
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  hostname: project.k8s-9.sa
+
+persistentVolumeClaim:
+  storageSize: 10Gi
+
+env:
+  - name: WORDPRESS_DB_HOST
+    value: wordpress-mysql:3306
+  - name: WORDPRESS_DB_NAME
+    value: wordpressdb
+  - name: WORDPRESS_DB_USER
+    value: root
+  - name: WORDPRESS_DB_PASSWORD
+    value: root
+  - name: WP_DEBUG_LOG
+    value: root
