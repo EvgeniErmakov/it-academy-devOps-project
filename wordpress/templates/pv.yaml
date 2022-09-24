@@ -13,5 +13,5 @@ spec:
     - ReadWriteMany
   persistentVolumeReclaimPolicy: Recycle
   nfs:
-    path: /mnt/IT-Academy/nfs-data/sa2-21-22/evgeni_ermakov/test/
+    path: /mnt/IT-Academy/nfs-data/sa2-21-22/ermakov/test
     server: 192.168.37.105
