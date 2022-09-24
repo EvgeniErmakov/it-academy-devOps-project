@@ -1,0 +1,51 @@
+name: Build and Publish image
+
+on:
+  push:
+    branches:
+    - "main"
+
+jobs:
+  release-image:
+    runs-on: ubuntu-20.04
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v2
+    
+    - name: add tag
+      id: tag_version
+      uses: mathieudutour/github-tag-action@v6.0
+      with:
+        github_token: ${{ secrets.TOKEN }}
+        tag_prefix: ""
+    
+    - name: Login to DockerHub
+      uses: docker/login-action@v1
+      with:
+        username: ${{ secrets.DOCKERHUB_USERNAME }}
+        password: ${{ secrets.DOCKERHUB_PASSWORD }}
+
+    - name: Build and push the image to DockerHub
+      uses: docker/build-push-action@v2
+      with:
+        context: ./Docker
+        push: true
+        tags: ${{ secrets.DOCKERHUB_USERNAME }}/wordpress-prod:${{ steps.tag_version.outputs.new_tag }}
+    
+    - name: Install Helm
+      uses: Azure/setup-helm@v3
+
+    - name: Helm Package
+      run: |
+        cd chart
+        helm package wordpress --version=${{ steps.tag_version.outputs.new_tag }} --app-version=${{ steps.tag_version.outputs.new_tag }}
+        cd ..
+        helm repo index --url https://evgeniermakov.github.io/it-academy-devOps-project/ --merge index.yaml .
+
+    - name: Commit and push changes
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add .
+        git commit -m "add new version ${{ steps.tag_version.outputs.new_tag }}"
+        git push origin main
