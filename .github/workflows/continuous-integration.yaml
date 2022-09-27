@@ -35,6 +35,12 @@ jobs:
     - name: Install Helm
       uses: Azure/setup-helm@v3
 
+    - name: Test manifests
+      continue-on-error: true
+      uses: instrumenta/kubeval-action@master
+      with:
+        files: ./wordpress/templates
+
     - name: Helm Package
       run: |
         helm package wordpress --version=${{ steps.tag_version.outputs.new_tag }} --app-version=${{ steps.tag_version.outputs.new_tag }}
