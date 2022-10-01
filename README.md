@@ -6,7 +6,9 @@
 
 # Description of application for deployment: #
 
-### Name of application: Wordpress-5.9 ###
+### Name of application: Wordpress ###
+
+### Version: 5.9 ###
 
 ### The application is written in PHP ###
 
