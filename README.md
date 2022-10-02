@@ -4,7 +4,7 @@
 
 ### Group number: md-sa2-21-22 ###
 
-# Description of application for deployment: #
+# Description of application for deployment #
 
 ### Name of application: Wordpress ###
 
@@ -16,7 +16,7 @@
 
 ### Link on git repository: https://github.com/docker-library/wordpress ###
 
-# Pipeline on picture: #
+# Pipeline on picture #
 
 ![Deployment phases](steps.png)
 
@@ -30,7 +30,7 @@ Notification: Slack
 
 Other tools: Helm, Docker
 
-# CI/CD description: #
+# CI/CD description #
 
 Steps:
 1) The developer push commit into gitHub repository
