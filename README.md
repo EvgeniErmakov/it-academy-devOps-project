@@ -18,7 +18,7 @@
 
 # Pipeline on picture: #
 
-![Image](png)
+![Deployment phases](steps.png)
 
 # Technologies which were used in project #
 
