@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   wordpress:
   - apiVersion: v2
+    appVersion: 0.0.25
+    created: "2022-10-06T17:36:40.805636728Z"
+    description: A Helm chart for Kubernetes
+    digest: 94ecc8490532f3362caf154e093df266a3652c01c444f3e3509badab93f93c09
+    name: wordpress
+    type: application
+    urls:
+    - https://evgeniermakov.github.io/it-academy-devOps-project/wordpress-0.0.25.tgz
+    version: 0.0.25
+  - apiVersion: v2
     appVersion: 0.0.24
-    created: "2022-10-06T17:26:20.956330355Z"
+    created: "2022-10-06T17:36:40.804901937Z"
     description: A Helm chart for Kubernetes
     digest: ed1f666e568fd52cb7b3f014363089be2100923a3ac6dd10998627ff117fb15b
     name: wordpress
@@ -13,7 +23,7 @@ entries:
     version: 0.0.24
   - apiVersion: v2
     appVersion: 0.0.23
-    created: "2022-10-06T17:26:20.956052552Z"
+    created: "2022-10-06T17:36:40.804639841Z"
     description: A Helm chart for Kubernetes
     digest: 11d813b00dde1308b4d5b454d87cd83c9957f7ff18047fa898c03daa20f4d130
     name: wordpress
@@ -23,7 +33,7 @@ entries:
     version: 0.0.23
   - apiVersion: v2
     appVersion: 0.0.22
-    created: "2022-10-06T17:26:20.955743248Z"
+    created: "2022-10-06T17:36:40.804377744Z"
     description: A Helm chart for Kubernetes
     digest: 82ffc267320b025170fbb68d636ffce67f0944bfeb7c6e352ba07704864afe80
     name: wordpress
@@ -33,7 +43,7 @@ entries:
     version: 0.0.22
   - apiVersion: v2
     appVersion: 0.0.19
-    created: "2022-10-06T17:26:20.955451644Z"
+    created: "2022-10-06T17:36:40.804108847Z"
     description: A Helm chart for Kubernetes
     digest: 629a0f332fd5c01720ebf6d5841d2a12223d6f46efd37755dd8b9c5bbb4a03bf
     name: wordpress
@@ -43,7 +53,7 @@ entries:
     version: 0.0.19
   - apiVersion: v2
     appVersion: 0.0.18
-    created: "2022-10-06T17:26:20.95514464Z"
+    created: "2022-10-06T17:36:40.803849051Z"
     description: A Helm chart for Kubernetes
     digest: 8f65409479072d57ce18b45d5a473fd0f93ca64db23e8d9b6fff74548e41254a
     name: wordpress
@@ -53,7 +63,7 @@ entries:
     version: 0.0.18
   - apiVersion: v2
     appVersion: 0.0.17
-    created: "2022-10-06T17:26:20.954827036Z"
+    created: "2022-10-06T17:36:40.803565954Z"
     description: A Helm chart for Kubernetes
     digest: bde88477b466349b10476b7bdd0248ebc66a47ca5336c25adee6c83b768f34ed
     name: wordpress
@@ -63,7 +73,7 @@ entries:
     version: 0.0.17
   - apiVersion: v2
     appVersion: 0.0.16
-    created: "2022-10-06T17:26:20.954507833Z"
+    created: "2022-10-06T17:36:40.803289158Z"
     description: A Helm chart for Kubernetes
     digest: 2347bcabae2aa330f4fde19368bd46597305f1461abb6d394d525513e3083815
     name: wordpress
@@ -73,7 +83,7 @@ entries:
     version: 0.0.16
   - apiVersion: v2
     appVersion: 0.0.14
-    created: "2022-10-06T17:26:20.954192429Z"
+    created: "2022-10-06T17:36:40.802998861Z"
     description: A Helm chart for Kubernetes
     digest: f7a4efdf26f5acd105b41e0ba2e5fbddccbd3d7b276730fc82606e89d1675f90
     name: wordpress
@@ -83,7 +93,7 @@ entries:
     version: 0.0.14
   - apiVersion: v2
     appVersion: 0.0.13
-    created: "2022-10-06T17:26:20.953886425Z"
+    created: "2022-10-06T17:36:40.802706165Z"
     description: A Helm chart for Kubernetes
     digest: e47989494e48f2a4dd02bf7ded1571c91b3c4e899ff8b2a6c5507ac3747416b8
     name: wordpress
@@ -93,7 +103,7 @@ entries:
     version: 0.0.13
   - apiVersion: v2
     appVersion: 0.0.12
-    created: "2022-10-06T17:26:20.952890113Z"
+    created: "2022-10-06T17:36:40.802435169Z"
     description: A Helm chart for Kubernetes
     digest: 9136ea1a855bce3d5a5b45255dcc7c95f764e4ec06377631f0a9ce913401967c
     name: wordpress
@@ -103,7 +113,7 @@ entries:
     version: 0.0.12
   - apiVersion: v2
     appVersion: 0.0.11
-    created: "2022-10-06T17:26:20.952491208Z"
+    created: "2022-10-06T17:36:40.802134272Z"
     description: A Helm chart for Kubernetes
     digest: 091ca50e04aa13d9f27273603ddf32a1a4c603b0a25257c21e77fb3b30fd132d
     name: wordpress
@@ -113,7 +123,7 @@ entries:
     version: 0.0.11
   - apiVersion: v2
     appVersion: 0.0.10
-    created: "2022-10-06T17:26:20.952060903Z"
+    created: "2022-10-06T17:36:40.801824476Z"
     description: A Helm chart for Kubernetes
     digest: e3d42d9e2265007a0454cda7ae350248d572ddb6fbbebb36510443ba9b432e61
     name: wordpress
@@ -123,7 +133,7 @@ entries:
     version: 0.0.10
   - apiVersion: v2
     appVersion: 0.0.9
-    created: "2022-10-06T17:26:20.958429281Z"
+    created: "2022-10-06T17:36:40.807496305Z"
     description: A Helm chart for Kubernetes
     digest: 1a866e0a8e5e43e04947c3eb33bd7e3985237c1f68a19b72342931eca5a11501
     name: wordpress
@@ -133,7 +143,7 @@ entries:
     version: 0.0.9
   - apiVersion: v2
     appVersion: 0.0.8
-    created: "2022-10-06T17:26:20.958123477Z"
+    created: "2022-10-06T17:36:40.807234808Z"
     description: A Helm chart for Kubernetes
     digest: 4cf0e3edc6a8796ca4e81e52e28be13926d8a9c128241af85f203c7d188c9634
     name: wordpress
@@ -143,7 +153,7 @@ entries:
     version: 0.0.8
   - apiVersion: v2
     appVersion: 0.0.7
-    created: "2022-10-06T17:26:20.957812373Z"
+    created: "2022-10-06T17:36:40.806979811Z"
     description: A Helm chart for Kubernetes
     digest: 8c12ce8ba1f82c077524775d3328738967ea51678909536c6064121710707e30
     name: wordpress
@@ -153,7 +163,7 @@ entries:
     version: 0.0.7
   - apiVersion: v2
     appVersion: 0.0.6
-    created: "2022-10-06T17:26:20.95754487Z"
+    created: "2022-10-06T17:36:40.806710415Z"
     description: A Helm chart for Kubernetes
     digest: a07b9c288981806e088ad70ee4f2e7d91aeddc130fa6f43a0426cc3758df0f10
     name: wordpress
@@ -163,7 +173,7 @@ entries:
     version: 0.0.6
   - apiVersion: v2
     appVersion: 0.0.5
-    created: "2022-10-06T17:26:20.957267366Z"
+    created: "2022-10-06T17:36:40.806447318Z"
     description: A Helm chart for Kubernetes
     digest: ad95ae9f1639f02670cf494a8030754d88c5849148ba27338c6e243f7a73c8ef
     name: wordpress
@@ -173,7 +183,7 @@ entries:
     version: 0.0.5
   - apiVersion: v2
     appVersion: 0.0.4
-    created: "2022-10-06T17:26:20.956963063Z"
+    created: "2022-10-06T17:36:40.806186521Z"
     description: A Helm chart for Kubernetes
     digest: 9dfa18942c7229f9ae6e8c07e037cb64244ed9f64f14b8be4b23115ef9cf176e
     name: wordpress
@@ -183,7 +193,7 @@ entries:
     version: 0.0.4
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2022-10-06T17:26:20.956657059Z"
+    created: "2022-10-06T17:36:40.805924125Z"
     description: A Helm chart for Kubernetes
     digest: 6c2b066166fbbc2f52c77b9ce38cb389c297abdc01fcce634c693bd6d75208f9
     name: wordpress
@@ -193,7 +203,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-10-06T17:26:20.951615097Z"
+    created: "2022-10-06T17:36:40.801420581Z"
     description: A Helm chart for Kubernetes
     digest: 07aa19caeb0ebea32e3bdb58da389291afb7245546c2f16ffb43056fc050fd25
     name: wordpress
@@ -201,4 +211,4 @@ entries:
     urls:
     - https://evgeniermakov.github.io/it-academy-devOps-project/wordpress-0.0.1.tgz
     version: 0.0.1
-generated: "2022-10-06T17:26:20.950296081Z"
+generated: "2022-10-06T17:36:40.800499893Z"
