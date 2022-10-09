@@ -1,6 +1,6 @@
 image:
   repository: "evgeniermakov/wordpress-prod"
-  tag: "10.0.45"
+  tag: "10.0.46"
 
 service:
   type: ClusterIP
@@ -16,7 +16,7 @@ env:
   - name: WORDPRESS_DB_HOST
     value: 192.168.202.10
   - name: WORDPRESS_DB_NAME
-    value: wordpressdb8
+    value: wordpressdb
   - name: WORDPRESS_DB_USER
     value: root
   - name: WORDPRESS_DB_PASSWORD
