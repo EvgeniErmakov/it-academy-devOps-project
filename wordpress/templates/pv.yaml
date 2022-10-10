@@ -5,7 +5,7 @@ metadata:
   labels:
     type: nfs
     name: wordpress-nfs-vol
-    {{- include "wordpress.labels" . | nindent 4 }}
+     {{- include "wordpress.labels" . | nindent 4 }}
 spec:
   capacity:
     storage: 10Gi
