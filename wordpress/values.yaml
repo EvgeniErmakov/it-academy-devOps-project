@@ -1,6 +1,6 @@
 image:
   repository: "evgeniermakov/wordpress-prod"
-  tag: "0.0.49"
+  tag: "10.0.51"
 
 service:
   type: ClusterIP
